@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD8B5B9F251688D400B7D3EB /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B5B9E251688D400B7D3EB /* SettingController.swift */; };
+		CDE3084D251632EC00233199 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE3084C251632EC00233199 /* UIViewControllerExtensions.swift */; };
+		CDE3085125163E3200233199 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE3085025163E3200233199 /* UIColorExtensions.swift */; };
+		CDE308542516401800233199 /* AppDeletateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE308532516401800233199 /* AppDeletateExtensions.swift */; };
+		CDE3085825164AB000233199 /* HomeControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE3085725164AB000233199 /* HomeControllerDelegate.swift */; };
+		CDE3085D251664C800233199 /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE3085C251664C800233199 /* MenuOptionCell.swift */; };
+		CDE308622516714C00233199 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE308612516714C00233199 /* Menu.swift */; };
 		CDFE51772514257C00213F7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE51762514257C00213F7A /* AppDelegate.swift */; };
 		CDFE51792514257C00213F7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE51782514257C00213F7A /* SceneDelegate.swift */; };
-		CDFE517B2514257C00213F7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE517A2514257C00213F7A /* ViewController.swift */; };
-		CDFE517E2514257C00213F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFE517C2514257C00213F7A /* Main.storyboard */; };
 		CDFE51802514258200213F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFE517F2514258200213F7A /* Assets.xcassets */; };
 		CDFE51832514258200213F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFE51812514258200213F7A /* LaunchScreen.storyboard */; };
+		CDFE518C251425F100213F7A /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE518B251425F100213F7A /* ContainerController.swift */; };
+		CDFE518E2514260700213F7A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE518D2514260700213F7A /* HomeController.swift */; };
+		CDFE51902514261B00213F7A /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE518F2514261B00213F7A /* MenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD8B5B9E251688D400B7D3EB /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		CDE3084C251632EC00233199 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		CDE3085025163E3200233199 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		CDE308532516401800233199 /* AppDeletateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDeletateExtensions.swift; sourceTree = "<group>"; };
+		CDE3085725164AB000233199 /* HomeControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControllerDelegate.swift; sourceTree = "<group>"; };
+		CDE3085C251664C800233199 /* MenuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionCell.swift; sourceTree = "<group>"; };
+		CDE308612516714C00233199 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		CDFE51732514257C00213F7A /* SideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFE51762514257C00213F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDFE51782514257C00213F7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CDFE517A2514257C00213F7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CDFE517D2514257C00213F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDFE517F2514258200213F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDFE51822514258200213F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDFE51842514258200213F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFE518B251425F100213F7A /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		CDFE518D2514260700213F7A /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		CDFE518F2514261B00213F7A /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CDE3084A251632CB00233199 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CDE3084C251632EC00233199 /* UIViewControllerExtensions.swift */,
+				CDE3085025163E3200233199 /* UIColorExtensions.swift */,
+				CDE308532516401800233199 /* AppDeletateExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CDE3085625164A9800233199 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CDE3085725164AB000233199 /* HomeControllerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CDE3085A2516649F00233199 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDE3085B251664A700233199 /* TableViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDE3085B251664A700233199 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				CDE3085C251664C800233199 /* MenuOptionCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		CDE308602516713100233199 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDE308612516714C00233199 /* Menu.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		CDFE516A2514257C00213F7A = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +114,29 @@
 		CDFE51752514257C00213F7A /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				CDE308602516713100233199 /* Models */,
+				CDE3085A2516649F00233199 /* Views */,
+				CDE3085625164A9800233199 /* Protocols */,
+				CDE3084A251632CB00233199 /* Extensions */,
+				CDFE518A251425DB00213F7A /* Controllers */,
 				CDFE51762514257C00213F7A /* AppDelegate.swift */,
 				CDFE51782514257C00213F7A /* SceneDelegate.swift */,
-				CDFE517A2514257C00213F7A /* ViewController.swift */,
-				CDFE517C2514257C00213F7A /* Main.storyboard */,
 				CDFE517F2514258200213F7A /* Assets.xcassets */,
 				CDFE51812514258200213F7A /* LaunchScreen.storyboard */,
 				CDFE51842514258200213F7A /* Info.plist */,
 			);
 			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		CDFE518A251425DB00213F7A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE518B251425F100213F7A /* ContainerController.swift */,
+				CDFE518D2514260700213F7A /* HomeController.swift */,
+				CDFE518F2514261B00213F7A /* MenuController.swift */,
+				CD8B5B9E251688D400B7D3EB /* SettingController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +199,6 @@
 			files = (
 				CDFE51832514258200213F7A /* LaunchScreen.storyboard in Resources */,
 				CDFE51802514258200213F7A /* Assets.xcassets in Resources */,
-				CDFE517E2514257C00213F7A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +209,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDFE517B2514257C00213F7A /* ViewController.swift in Sources */,
+				CD8B5B9F251688D400B7D3EB /* SettingController.swift in Sources */,
 				CDFE51772514257C00213F7A /* AppDelegate.swift in Sources */,
+				CDE3085D251664C800233199 /* MenuOptionCell.swift in Sources */,
+				CDE3085125163E3200233199 /* UIColorExtensions.swift in Sources */,
+				CDFE518C251425F100213F7A /* ContainerController.swift in Sources */,
 				CDFE51792514257C00213F7A /* SceneDelegate.swift in Sources */,
+				CDFE51902514261B00213F7A /* MenuController.swift in Sources */,
+				CDE3084D251632EC00233199 /* UIViewControllerExtensions.swift in Sources */,
+				CDE3085825164AB000233199 /* HomeControllerDelegate.swift in Sources */,
+				CDFE518E2514260700213F7A /* HomeController.swift in Sources */,
+				CDE308622516714C00233199 /* Menu.swift in Sources */,
+				CDE308542516401800233199 /* AppDeletateExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CDFE517C2514257C00213F7A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDFE517D2514257C00213F7A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CDFE51812514258200213F7A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
